@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossPlatformSuite" duration-ms="23886" started-at="2018-07-09T19:54:08Z" finished-at="2018-07-09T19:54:32Z">
+    <groups>
+    </groups>
+    <test name="RealDevice Test" duration-ms="14404" started-at="2018-07-09T19:54:08Z" finished-at="2018-07-09T19:54:23Z">
+      <class name="appiumTest.BrightnessControl">
+        <test-method status="PASS" signature="deviceSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumTest.BrightnessControl@7b69c6ba]" name="deviceSetUp" is-config="true" duration-ms="9834" started-at="2018-07-09T19:54:08Z" finished-at="2018-07-09T19:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MJBQLBEYAUPJGEDQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.curvefish.widgets.brightnesslevel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.curvefish.widgets.brightnesslevel.BrightnessSelect]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1MMB29M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://127.0.0.1:4733/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deviceSetUp -->
+        <test-method status="PASS" signature="brightnessControl()[pri:0, instance:appiumTest.BrightnessControl@7b69c6ba]" name="brightnessControl" duration-ms="3787" started-at="2018-07-09T19:54:18Z" finished-at="2018-07-09T19:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brightnessControl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumTest.BrightnessControl@7b69c6ba]" name="tearDown" is-config="true" duration-ms="764" started-at="2018-07-09T19:54:22Z" finished-at="2018-07-09T19:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appiumTest.BrightnessControl -->
+    </test> <!-- RealDevice Test -->
+    <test name="Emulator Test" duration-ms="23886" started-at="2018-07-09T19:54:08Z" finished-at="2018-07-09T19:54:32Z">
+      <class name="appiumTest.BrightnessControl">
+        <test-method status="PASS" signature="deviceSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumTest.BrightnessControl@b7dd107]" name="deviceSetUp" is-config="true" duration-ms="15469" started-at="2018-07-09T19:54:08Z" finished-at="2018-07-09T19:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5203b75de26b14cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.curvefish.widgets.brightnesslevel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.curvefish.widgets.brightnesslevel.BrightnessSelect]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1MMB29M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deviceSetUp -->
+        <test-method status="PASS" signature="brightnessControl()[pri:0, instance:appiumTest.BrightnessControl@b7dd107]" name="brightnessControl" duration-ms="4266" started-at="2018-07-09T19:54:24Z" finished-at="2018-07-09T19:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brightnessControl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumTest.BrightnessControl@b7dd107]" name="tearDown" is-config="true" duration-ms="4135" started-at="2018-07-09T19:54:28Z" finished-at="2018-07-09T19:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appiumTest.BrightnessControl -->
+    </test> <!-- Emulator Test -->
+  </suite> <!-- CrossPlatformSuite -->
+</testng-results>
